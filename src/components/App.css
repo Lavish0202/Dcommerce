@@ -1,0 +1,42 @@
+/* Styles go here 
+
+Basic CSS file for styling the project
+*/
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background: rgb(27, 241, 81);
+    color: white;
+  }
+  
+  .nav-links{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+  
+  }
+
+  .text-color{
+      color: black;
+      font: arial;
+      font-style: italic;
+      font-size: 22px;
+  }
+  .button{
+      background-color: rgb(19, 228, 71);
+      color:white;
+      padding:8px 30px;
+      font-size: 18px;
+      display: inline-block;
+
+  }
+  .bg{
+      background-color: rgb(187, 243, 201);
+  }
+  .bgg{
+    background-color: white;
+}
